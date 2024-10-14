@@ -1,0 +1,61 @@
+.main {
+  text-align: center;
+  height : 44em;
+  background-image: url("./assets/theophile-curto-twfbetc4-x4size.jpg");
+}
+
+.main .welcome {
+  margin-top : 10%
+}
+
+.textArea {
+  position: fixed;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  bottom:0;
+  opacity:0.6
+}
+
+.textArea p {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.my-img {
+  margin-top: 100px;
+  height: 300px;
+  width:250px;
+  border : 5px solid black;
+}
+
+.magicBtn {
+  font-family: "Press Start 2P", system-ui;
+  color-scheme: light dark;
+  background-color: rgba(35, 75, 104, 0.87);
+  margin: 20px;
+  padding: 15px;
+  border-color: black;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .my-img {
+    height: 250px;
+    width: 200px;
+  }
+  .main {
+    height: 850px;
+    width: 100vw;
+    font-size: 13px;
+    
+  }
+
+
+
+
+
+  
+}
